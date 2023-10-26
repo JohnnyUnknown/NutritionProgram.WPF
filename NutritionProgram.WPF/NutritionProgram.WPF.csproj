@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1660561814_29-kartinkin-net-p-fon-dlya-letnego-menyu-krasivo-32.jpg" />
+    <None Remove="b39f23c4c0743ef8c67f64c905c3a43c.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1660561814_29-kartinkin-net-p-fon-dlya-letnego-menyu-krasivo-32.jpg" />
+    <Resource Include="b39f23c4c0743ef8c67f64c905c3a43c.jpeg" />
+  </ItemGroup>
+
+</Project>
